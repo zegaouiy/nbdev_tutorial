@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_tutorial"
+  site-url: "https://zegaouiy.github.io/nbdev_tutorial"
+  description: "tutorial for nbdev tool"
+  repo-branch: main
+  repo-url: "https://github.com/zegaouiy/nbdev_tutorial"
