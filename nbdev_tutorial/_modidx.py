@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://zegaouiy.github.io',
                 'git_url': 'https://github.com/zegaouiy/nbdev_tutorial',
                 'lib_path': 'nbdev_tutorial'},
-  'syms': {'nbdev_tutorial.core': {'nbdev_tutorial.core.foo': ('core.html#foo', 'nbdev_tutorial/core.py')}}}
+  'syms': { 'nbdev_tutorial.core': {'nbdev_tutorial.core.foo': ('core.html#foo', 'nbdev_tutorial/core.py')},
+            'nbdev_tutorial.tutorial': { 'nbdev_tutorial.tutorial.foo': ('tutorial.html#foo', 'nbdev_tutorial/tutorial.py'),
+                                         'nbdev_tutorial.tutorial.test_tutorial': ( 'tutorial.html#test_tutorial',
+                                                                                    'nbdev_tutorial/tutorial.py')}}}
